@@ -5,6 +5,6 @@ terraform {
     region = "ap-south-1"
     dynamodb_table = "kundanverma-lock-table"
     encrypt = true
-    use_lockfile   = true
+  
     }
   }
